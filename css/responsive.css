@@ -1,0 +1,85 @@
+                        /* Normal desktop :1200px. xl */
+                        
+                        @media (min-width: 1200px) and (max-width: 1500px) {}
+                        /* Normal desktop :992px. lg */
+                        
+                        @media (min-width: 992px) and (max-width: 1200px) {}
+                        /* Tablet desktop :768px. md */
+                        
+                        @media (min-width: 768px) and (max-width: 991px) {
+                            .hero-content h1 {
+                                line-height: 70px;
+                                font-size: 50px;
+                            }
+                            .hero-content span {
+                                font-size: 18px;
+                            }
+                            .bt-btn.mt-40 {
+                                margin-top: 20px;
+                            }
+                            .hero-img img {
+                                width: 100%;
+                            }
+                            .slider-shape2 {
+                                display: none;
+                            }
+                            .feature-wrapper h3 {
+                                font-size: 18px;
+                            }
+                            .feature-wrapper p {
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                            .section-title h2 {
+                                font-size: 32px;
+                            }
+                            .mb-200 {
+                                margin-bottom: 130px;
+                            }
+                        }
+                        /* small mobile :320px. sm */
+                        
+                        @media (max-width: 767px) {
+                            .hero-content h1 {
+                                line-height: 70px;
+                                font-size: 50px;
+                            }
+                            .hero-content span {
+                                font-size: 18px;
+                            }
+                            .bt-btn.mt-40 {
+                                margin-top: 20px;
+                            }
+                            .slider-height {
+                                display: flex;
+                                align-items: center;
+                            }
+                            .feature-wrapper h3 {
+                                font-size: 18px;
+                            }
+                            .feature-wrapper p {
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                            .section-title h2 {
+                                font-size: 32px;
+                            }
+                            .mb-200 {
+                                margin-bottom: 130px;
+                            }
+                            .project-wrapper h2 {
+                                font-size: 30px;
+                                line-height: 40px;
+                            }
+                            .bt-btn {
+                                font-size: 14px;
+                                padding: 20px 30px;
+                            }
+                        }
+                        /* Large Mobile :480px. */
+                        
+                        @media only screen and (min-width: 480px) and (max-width: 767px) {
+                            .container {
+                                width: 450px
+                            }
+                        }
